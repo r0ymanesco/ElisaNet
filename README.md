@@ -15,7 +15,7 @@ Model weights can be downloaded here: [link](https://drive.google.com/file/d/1wp
 
 Place the ```.pth``` file in the same directory as the ```test.py``` file.
 
-The network currently only accepts image resolution of 3648x2736 RGB format. Will be updated in the future to be more flexible. A sample of how the input images should is shown below.
+The network currently only accepts image resolution of 3648x2736 RGB format. Will be updated in the future to be more flexible. A sample of how the input images should look like is shown below.
 
 <img src="sample.jpg" alt="drawing" width="342"/>
 
