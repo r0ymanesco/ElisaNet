@@ -1,0 +1,15 @@
+.DS_Store/
+__pycache__/
+runs/
+dataset/
+model/
+.vscode/
+output/
+*.log*
+.DS_Store
+vimeo_septuplet/
+*mp4
+UCF101
+elisadata
+*.pth
+*.el
