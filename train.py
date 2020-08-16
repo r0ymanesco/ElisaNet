@@ -1,14 +1,13 @@
 import numpy as np
-
 import torch
 import torch.optim as optim
 import torch.utils.data as data
 import torch.optim.lr_scheduler as LS
+from torch.utils.tensorboard import SummaryWriter
 
 import network
 from dataset import ElisaDataset
 from train_options import parser
-from torch.utils.tensorboard import SummaryWriter
 from util import save_nets, load_weights, forward_pass, lr_resume
 from util import EarlyStopping
 
